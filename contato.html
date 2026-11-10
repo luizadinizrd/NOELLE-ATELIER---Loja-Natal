@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato | NOËLLE ATELIER</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A8%3C/text%3E%3C/svg%3E">
+
+</head>
+
+<body>
+
+    <div class="topline">
+        COLEÇÃO DE NATAL 2026 · O EXTRAORDINÁRIO MORA NOS DETALHES
+    </div>
+
+
+    <header class="site-header">
+
+        <a class="brand" href="index.html">
+            NOËLLE
+            <span>ATELIER</span>
+        </a>
+
+        <button
+            class="menu-toggle"
+            id="botao-menu"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            type="button">
+
+            ☰
+
+        </button>
+
+        <nav id="menu-principal" class="nav-links">
+
+            <a href="index.html">Início</a>
+
+            <a href="produtos.html">Coleção</a>
+
+            <a href="sobre.html">Nossa história</a>
+
+            <a href="galeria.html">Inspiração</a>
+
+            <a href="contato.html">Contato</a>
+
+        </nav>
+
+        <button
+            class="sound-toggle"
+            id="botao-som"
+            type="button"
+            aria-pressed="false">
+
+            ♫ Som: desligado
+
+        </button>
+
+    </header>
+
+    <main>
+
+        <section class="page-hero">
+
+            <p class="eyebrow">
+                VAMOS CONVERSAR
+            </p>
+
+            <h1>
+                Estamos aqui para você.
+            </h1>
+
+            <p>
+                Dúvidas, sugestões ou uma mensagem especial?
+                Escreva para nós.
+            </p>
+
+        </section>
+
+        <section class="contact-layout section-wrap">
+
+            <div class="contact-info">
+
+                <p class="eyebrow">
+                    FALE COM A NOËLLE
+                </p>
+
+                <h2>
+                    Cada conversa
+                    <br>
+                    <em>começa com um detalhe.</em>
+                </h2>
+
+                <div class="contact-detail">
+
+                    <span>E-MAIL</span>
+
+                    <strong>
+                        contato@noelleatelier.com
+                    </strong>
+
+                </div>
+
+                <div class="contact-detail">
+
+                    <span>INSTAGRAM</span>
+
+                    <strong>
+                        @noelle.atelier
+                    </strong>
+
+
+                </div>
+
+                <div class="contact-detail">
+
+                    <span>ATENDIMENTO</span>
+
+                    <strong>
+                        Segunda a sexta · 9h às 18h
+                    </strong>
+
+                </div>
+
+            </div>
+
+            <form
+                id="form-contato"
+                class="contact-form"
+                novalidate>
+
+                <label for="nome">
+                    Nome completo
+                </label>
+
+                <input
+                    id="nome"
+                    name="nome"
+                    type="text"
+                    placeholder="Como podemos chamar você?"
+                    required
+                    minlength="2">
+
+                <small
+                    class="field-error"
+                    id="erro-nome">
+                </small>
+
+                <label for="email">
+                    E-mail
+                </label>
+
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="voce@exemplo.com"
+                    required>
+
+                <small
+                    class="field-error"
+                    id="erro-email">
+                </small>
+
+                <label for="assunto">
+                    Assunto
+                </label>
+
+                <select
+                    id="assunto"
+                    name="assunto"
+                    required>
+
+                    <option value="">
+                        Selecione um assunto
+                    </option>
+
+                    <option>
+                        Dúvida sobre produto
+                    </option>
+
+                    <option>
+                        Pedido
+                    </option>
+
+                    <option>
+                        Parceria
+                    </option>
+
+                    <option>
+                        Outro assunto
+                    </option>
+
+                </select>
+
+                <small
+                    class="field-error"
+                    id="erro-assunto">
+                </small>
+
+                <label for="mensagem">
+                    Mensagem
+                </label>
+
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="5"
+                    placeholder="Escreva sua mensagem..."
+                    required
+                    minlength="10">
+                </textarea>
+
+                <small
+                    class="field-error"
+                    id="erro-mensagem">
+                </small>
+
+                <button
+                    class="button button-dark"
+                    type="submit">
+
+                    Enviar mensagem ↗
+
+                </button>
+
+                <p
+                    id="mensagem-form"
+                    role="status"
+                    aria-live="polite">
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+
+        <a
+            class="brand brand-footer"
+            href="index.html">
+
+            NOËLLE
+
+            <span>ATELIER</span>
+
+        </a>
+
+        <p>
+            O extraordinário mora nos detalhes.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="produtos.html">
+                Coleção
+            </a>
+
+            <a href="sobre.html">
+                Nossa história
+            </a>
+
+            <a href="galeria.html">
+                Inspiração
+            </a>
+
+        </div>
+
+        <small>
+            © 2026 NOËLLE ATELIER
+        </small>
+
+    </footer>
+
+    <div
+        id="efeito-neve"
+        aria-hidden="true">
+    </div>
+
+    <button
+        id="voltar-topo"
+        class="back-top"
+        aria-label="Voltar ao topo"
+        type="button">
+           ↑
+    </button>
+
+    <script src="js/produtos.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
