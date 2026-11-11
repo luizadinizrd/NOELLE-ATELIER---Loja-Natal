@@ -52,6 +52,6 @@ Projeto acadêmico fictício de uma loja de moda natalina, desenvolvido com HTML
 
 ## Links do projeto
 
-- **Repositório GitHub:** [Inserir link]
-- **Site publicado:** [Inserir link]
+- **Repositório GitHub:** NOELLE ATELIER - Loja Natal
+- **Site publicado:**  https://luizadinizrd.github.io/NOELLE-ATELIER---Loja-Natal/
 - **Vídeo de apresentação:** [Inserir link]
